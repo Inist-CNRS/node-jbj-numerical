@@ -1,0 +1,73 @@
+{
+  "Floatprint #1": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "floatprint": true
+    },
+    "expected": 0.18240444179977044
+  },
+  "Floatprint #2": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "floatprint": "eainorstuldmgbcpfhvjqkwxyz1234567890"
+    },
+    "expected": 0.0948003043098926
+  },
+  "pearson #1": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "pearson": true
+    },
+    "expected": 142
+  },
+  "djb2 #1": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "djb2": true
+    },
+    "expected": 1523634734
+  },
+  "sdbm #1": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "sdbm": true
+    },
+    "expected": 76755323
+  },
+  "fnv1a #1": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "fnv1a": true
+    },
+    "expected": 1505692836
+  },
+  "murmur3": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "murmur3": true
+    },
+    "expected": 1796952176
+  },
+  "distincter #1": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "reset": "test",
+	  "$a" : {
+		  "distincter": "test"
+	  },
+	  "$b": {
+		  "distincter": "test"
+	  },
+	  "get" : "a"
+    },
+    "expected": 1
+  }
+
+
+
+
+
+
+
+
+}
