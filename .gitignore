@@ -1,3 +1,8 @@
-node_modules/
+*.tgz
+*.swp
+*.swo
+README.html
+node_modules
 coverage/
-lib/
+*.sw?
+lib
