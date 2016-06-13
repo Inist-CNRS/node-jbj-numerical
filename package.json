@@ -1,6 +1,6 @@
 {
   "name": "jbj-numerical",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Numerical text processing for JBJ",
   "main": "lib/index.js",
   "scripts": {
