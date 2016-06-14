@@ -55,7 +55,7 @@ JBJ.render(stylesheet, console.log);
 
 <a id="pearson"></a>
 ### pearson: true
-Pearson 8-bit hash function.
+[Pearson](http://en.wikipedia.org/wiki/Pearson_hashing) 8-bit hash function.
 
 ```javascript
 
@@ -69,9 +69,9 @@ JBJ.render(stylesheet, console.log);
 ```
 
 
-<a id="djb2"></a>
-### djb2 : true
-Bernstein's djb2 hash function.
+<a id="djb2"></a> ### djb2 : true
+[Bernstein](http://en.wikipedia.org/wiki/Daniel_J._Bernstein)'s 
+[djb2](http://www.cse.yorku.ca/~oz/hash.html) hash function.
 
 ```javascript
 
@@ -87,7 +87,8 @@ JBJ.render(stylesheet, console.log);
 
 <a id="sdbm"></a>
 ### sdbm : true
-Hash function used in sdbm.
+[Hash function](http://www.cse.yorku.ca/~oz/hash.html) used in 
+[sdbm](http://wiki.call-cc.org/eggref/4/sdbm).
 
 ```javascript
 
@@ -103,7 +104,8 @@ JBJ.render(stylesheet, console.log);
 
 <a id="fnv1a"></a>
 ### fnv1a: true
-Fowler–Noll–Vo hash function variant 1a.
+[Fowler–Noll–Vo](http://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function)
+hash function variant 1a.
 
 ```javascript
 
@@ -120,7 +122,7 @@ JBJ.render(stylesheet, console.log);
 
 <a id="murmur3"></a>
 ### murmur3: true
-Murmur hash function version 3
+[Murmur](http://en.wikipedia.org/wiki/MurmurHash) hash function version 3
 
 ```javascript
 
