@@ -61,13 +61,39 @@
 	  "get" : "a"
     },
     "expected": 1
+  },
+  "distincter #2": {
+    "input": [
+      {
+        "author": "Frank",
+        "title": "thèse"
+      },
+      {
+        "author": "Frank",
+        "title": "article"
+      },
+      {
+        "author": "Nicholas",
+        "title": "article"
+      },
+      {
+        "author": "Liz",
+        "title": "article"
+      }
+    ],
+    "stylesheet": {
+      "reseter": "author",
+      "foreach": {
+        "get": "author",
+        "distincter": "author"
+      }
+    },
+    "expected": [
+      1,
+      1,
+      2,
+      3
+    ]
   }
-
-
-
-
-
-
-
 
 }
