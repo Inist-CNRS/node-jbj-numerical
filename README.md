@@ -48,7 +48,7 @@ var stylesheet = {
   "loselose": true
 };
 JBJ.render(stylesheet, console.log);
-// 0.0948003043098926
+// 1133
 
 ```
 
@@ -70,7 +70,7 @@ JBJ.render(stylesheet, console.log);
 
 
 <a id="djb2"></a> ### djb2 : true
-[Bernstein](http://en.wikipedia.org/wiki/Daniel_J._Bernstein)'s 
+[Bernstein](http://en.wikipedia.org/wiki/Daniel_J._Bernstein)'s
 [djb2](http://www.cse.yorku.ca/~oz/hash.html) hash function.
 
 ```javascript
@@ -87,7 +87,7 @@ JBJ.render(stylesheet, console.log);
 
 <a id="sdbm"></a>
 ### sdbm : true
-[Hash function](http://www.cse.yorku.ca/~oz/hash.html) used in 
+[Hash function](http://www.cse.yorku.ca/~oz/hash.html) used in
 [sdbm](http://wiki.call-cc.org/eggref/4/sdbm).
 
 ```javascript

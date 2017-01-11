@@ -13,6 +13,13 @@
     },
     "expected": 0.0948003043098926
   },
+  "loselose": {
+    "input": "lorem ipsum",
+    "stylesheet": {
+      "loselose": true
+    },
+    "expected": 1133
+  },
   "pearson #1": {
     "input": "lorem ipsum",
     "stylesheet": {
